@@ -1,0 +1,186 @@
+/*
+Hip Modern Pastels
+---
+Pastel Peach: #dea6af
+Sky Blue: #8cbcd0
+Pastel Pink: #e6dbc9
+*/
+
+@font-face {
+	font-family: 'HKGrotesk';
+	src: url('fonts/HKGrotesk-Regular.eot');
+  src: url('fonts/HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/HKGrotesk-Regular.woff2') format('woff2'),
+       url('fonts/HKGrotesk-Regular.woff') format('woff'),
+	src: url('fonts/HKGrotesk-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HKGrotesk';
+	src: url('fonts/HKGrotesk-Italic.eot');
+  src: url('fonts/HKGrotesk-Italic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/HKGrotesk-Italic.woff2') format('woff2'),
+       url('fonts/HKGrotesk-Italic.woff') format('woff'),
+	src: url('fonts/HKGrotesk-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'HKGrotesk';
+	src: url('fonts/HKGrotesk-Medium.eot');
+  src: url('fonts/HKGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/HKGrotesk-Medium.woff2') format('woff2'),
+       url('fonts/HKGrotesk-Medium.woff') format('woff'),
+	src: url('fonts/HKGrotesk-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HKGrotesk';
+	src: url('fonts/HKGrotesk-MediumItalic.eot');
+  src: url('fonts/HKGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/HKGrotesk-MediumItalic.woff2') format('woff2'),
+       url('fonts/HKGrotesk-MediumItalic.woff') format('woff'),
+	src: url('fonts/HKGrotesk-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'HKGrotesk';
+	src: url('fonts/HKGrotesk-Bold.eot');
+  src: url('fonts/HKGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/HKGrotesk-Bold.woff2') format('woff2'),
+       url('fonts/HKGrotesk-Bold.woff') format('woff'),
+	src: url('fonts/HKGrotesk-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HKGrotesk';
+	src: url('fonts/HKGrotesk-BoldItalic.eot');
+  src: url('fonts/HKGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/HKGrotesk-BoldItalic.woff2') format('woff2'),
+       url('fonts/HKGrotesk-BoldItalic.woff') format('woff'),
+	src: url('fonts/HKGrotesk-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {font-size: 1em;}
+
+@media all and (min-width:1024px) {
+	html {font-size: 1.125em;}
+}
+
+@media all and (min-width:1680px) {
+	html {font-size: 1.25em;}
+}
+
+body {
+  background-color: #fafafa;
+	background-color: #f1f3f5;
+  font-family: 'HKGrotesk', 'HK Grotesk', 'Source Sans Pro', 'Asap', 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #757575;
+  color: #000000;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+	font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+	color: #000000;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  font-weight: 500;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+strong {
+	font-weight: bold;
+}
+
+a, a:link, a:hover, a:focus, a:active, a:visited {
+  text-decoration: none;
+  color: #4630eb;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+	box-shadow: none;
+}
