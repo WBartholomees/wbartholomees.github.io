@@ -265,6 +265,16 @@ main .portfolio {
 	}
 }
 
+.portfolio .gridGutters  {
+	margin-left: -2.5rem;
+}
+
+.portfolio .gridGutters > .gridCell {
+	margin-left: 2.5rem;
+	flex: 0 0 calc(33.3333% - 2.5rem);
+	width: calc(33.3333% - 2.5rem);
+}
+
 main .about {
 	position: relative;
 	background-color: #ffffff;
