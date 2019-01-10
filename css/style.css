@@ -31,21 +31,11 @@ section {
 	width: 50%;
 }
 
-.wleft {
-	width: 90%;
-	margin-left: 10%;
-}
-
-.wright {
-	width: 90%;
-	margin-right: 10%;
-}
-
 .wrapSmall {
 	width: 60%;
 }
 
-@media all and (min-width:1680px) {
+@media all and (min-width:1024px) {
 	.wrap {
 		width: 83.3333%;
 	}
