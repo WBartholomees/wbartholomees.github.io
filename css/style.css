@@ -374,7 +374,7 @@ main section.portfolio h4 {
 	margin: 0 1rem;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:1024px) {
 	main section.portfolio h4 {
 		margin: 0;
 	}
@@ -387,7 +387,7 @@ main section.portfolio small {
 	text-transform: uppercase;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:1024px) {
 	main section.portfolio small {
 		margin: 0 0 1em;
 	}
