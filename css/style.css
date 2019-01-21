@@ -91,9 +91,11 @@ header .grid .gridCell {
 }
 
 @media all and (min-width:768px) {
-	header .grid .gridCell {
-		flex: 0 0 60%;
-		text-align: right;
+	header .grid > .gridCell {
+		flex: 1;
+	}
+	header .grid > .gridCell:first-of-type {
+		flex: 0 0 33.33%;
 	}
 }
 
