@@ -96,6 +96,9 @@ header .grid .gridCell {
 	header .grid > .gridCell:first-of-type {
 		flex: 0 0 33.33%;
 	}
+	header .grid > .gridCell:last-of-type {
+		text-align: right;
+	}
 }
 
 /* Navigation */
