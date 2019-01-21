@@ -70,7 +70,6 @@ header .grid {
 }
 
 header .grid .logo {
-	flex: 0 0 40%;
 	line-height: 0;
 	text-align: center;
 }
