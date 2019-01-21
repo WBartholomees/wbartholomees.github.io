@@ -87,8 +87,14 @@ header .grid .logo {
 }
 
 header .grid .gridCell {
-	flex: 0 0 60%;
-	text-align: right;
+	flex: 0 0 100%;
+}
+
+@media all and (min-width:768px) {
+	header .grid .gridCell {
+		flex: 0 0 60%;
+		text-align: right;
+	}
 }
 
 /* Navigation */
