@@ -114,18 +114,12 @@ nav {
 
 @media all and (min-width:768px) {
 	nav {
-		display: inline-block;
-		list-style: none;
-		padding-right: 10%;
-		margin: 0;
+		justify-content: flex-end;
 		font-size: 1em;
-		padding-right: 0;
 	}
 }
 
 nav a {
-	text-decoration: none !important;
-	display: block;
 	padding: 0;
 	margin: 0;
 	line-height: 1;
@@ -135,10 +129,8 @@ nav a {
 
 @media all and (min-width:768px) {
 	nav a {
-		border: none;
 		margin: 0 0 0 2.5rem;
 		line-height: 18px;
-		float: left;
 	}
 }
 
