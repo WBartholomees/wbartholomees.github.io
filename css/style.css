@@ -105,6 +105,7 @@ header .grid .gridCell {
 
 nav {
 	display: flex;
+	justify-content: space-between;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 }
@@ -121,12 +122,10 @@ nav {
 }
 
 nav a {
-	flex: 1;
 	text-decoration: none !important;
 	display: block;
 	padding: 0;
 	margin: 0;
-	border-top: 1px solid #BBAAAA;
 	color: #000000 !important;
 	transition: color 0.4s ease 0s;
 }
