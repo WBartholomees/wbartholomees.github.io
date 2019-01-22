@@ -70,19 +70,21 @@ header .grid {
 }
 
 header .grid .logo {
-	line-height: 0;
+	margin-bottom: 2.5rem;
 	text-align: center;
 }
 
 @media all and (min-width:768px) {
 	header .grid .logo {
+		margin-bottom: 0;
 		text-align: left;
 	}
 }
 
 .logo h4 {
 	margin: 0;
-	font-size: 1em;
+	font-size: 18px;
+	line-height: 18px;
 }
 
 header .grid .gridCell {
@@ -126,6 +128,7 @@ nav a {
 	display: block;
 	padding: 0;
 	margin: 0;
+	line-height: 1;
 	color: #000000 !important;
 	transition: color 0.4s ease 0s;
 }
@@ -134,6 +137,7 @@ nav a {
 	nav a {
 		border: none;
 		margin: 0 0 0 2.5rem;
+		line-height: 18px;
 		float: left;
 	}
 }
