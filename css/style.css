@@ -241,7 +241,7 @@ main .intro small {
 }
 
 main .intro .iContent > p:last-of-type,
-main .intro .iContent .grid p {
+main .intro .iContent .grid .gridCell p {
 	margin-bottom: 0;
 }
 
