@@ -240,7 +240,8 @@ main .intro small {
 	margin-bottom: 1.5em;
 }
 
-main .intro .iContent > p:last-of-type {
+main .intro .iContent > p:last-of-type,
+main .intro .iContent .grid p {
 	margin-bottom: 0;
 }
 
