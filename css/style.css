@@ -216,7 +216,7 @@ main .intro h1 span i {
 	font-style: normal;
 	color: #4630eb;
 }
-
+/*
 main .intro .iContent {
 	opacity: 0;
 	-webkit-animation-name: textOpacity;
@@ -232,7 +232,7 @@ main .intro .iContent {
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
-
+*/
 main .intro small {
 	color: #808080;
 	text-transform: uppercase;
