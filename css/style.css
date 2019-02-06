@@ -167,7 +167,7 @@ main .intro .iContent {
 main .intro h1 {
 	color: #000000;
 }
-
+/*
 main .intro h1 span {
 	position: relative;
 	display: inline-block;
@@ -211,7 +211,7 @@ main .intro h1 span::after {
 		transform: translateX(101%);
 	}
 }
-
+*/
 main .intro h1 span i {
 	font-style: normal;
 	color: #4630eb;
