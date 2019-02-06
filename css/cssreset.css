@@ -127,7 +127,7 @@ html {font-size: 1em;}
 body {
   background-color: #fafafa;
 	background-color: #f1f3f5;
-  font-family: 'HKGrotesk', 'HK Grotesk', 'Source Sans Pro', 'Asap', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: /*'HKGrotesk', 'HK Grotesk', */'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #757575;
@@ -137,17 +137,18 @@ body {
 p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+  	margin: 1.414em 0 0.5em;
 	font-family: inherit;
-  font-weight: 700;
-  line-height: 1.2;
+  	font-weight: 700;
+	font-weight: 600;
+  	line-height: 1.2;
 	color: #000000;
 }
 
 h1 {
   margin-top: 0;
   font-size: 2.441em;
-  font-weight: 500;
+	/*font-weight: 500;*/
 }
 
 @media all and (min-width:1024px) {
