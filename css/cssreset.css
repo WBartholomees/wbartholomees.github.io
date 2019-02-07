@@ -138,9 +138,8 @@ p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
   	margin: 1.414em 0 0.5em;
-	font-family: inherit;
-  	font-weight: 700;
-	font-weight: 600;
+	font-family: 'Playfair Display', Georgia, serif;
+  	font-weight: 400;
   	line-height: 1.2;
 	color: #000000;
 }
@@ -148,8 +147,6 @@ h1, h2, h3, h4 {
 h1 {
  	margin-top: 0;
  	font-size: 2.441em;
-	font-weight: 500;
-	font-weight: 400;
 }
 
 @media all and (min-width:1024px) {
