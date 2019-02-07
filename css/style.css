@@ -245,7 +245,7 @@ main .intro .icontent .grid .gridCell {
 }
 
 main .intro small {
-	color: #808080;
+	color: rgba(0, 0, 0, 0.54);
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 1.5em;
