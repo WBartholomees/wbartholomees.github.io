@@ -163,11 +163,11 @@ main .intro {
 main .intro .iContent {
 	width: 83.3333%;
 }
-
+/*
 main .intro h1 {
 	color: #000000;
 }
-/*
+
 main .intro h1 span {
 	position: relative;
 	display: inline-block;
