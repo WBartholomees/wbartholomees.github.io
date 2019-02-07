@@ -234,12 +234,12 @@ main .intro .iContent {
 }
 */
 
-main .intro .iContent .grid .gridCell {
+main .intro .icontent .grid .gridCell {
 	flex: 0 0 100%;
 }
 
 @media (min-width: 1024px) {
-	main .intro .iContent .grid .gridCell {
+	main .intro .icontent .grid .gridCell {
 		flex: 1;
 	}
 }
