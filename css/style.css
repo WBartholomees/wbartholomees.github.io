@@ -85,6 +85,7 @@ header .grid .logo {
 	margin: 0;
 	font-size: 18px;
 	line-height: 18px;
+	text-decoration: uppercase;
 }
 
 header .grid .gridCell {
@@ -123,7 +124,7 @@ nav a {
 	padding: 0;
 	margin: 0;
 	line-height: 1;
-	color: #000000 !important;
+	color: #202121 !important;
 	transition: color 0.4s ease 0s;
 }
 
@@ -135,7 +136,7 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-color: #000000 !important;
+color: #202121 !important;
 }
 
 	/* MAIN */
@@ -245,7 +246,7 @@ main .intro .icontent .grid .gridCell {
 }
 
 main .intro small {
-	color: rgba(0, 0, 0, 0.54);
+	color: #a6abab;
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 1.5em;
@@ -405,7 +406,7 @@ main section.portfolio h4 {
 main section.portfolio small {
 	display: block;
 	margin: 0 1rem 1em;
-	color: inherit;
+	color: #a6abab;
 	text-transform: uppercase;
 }
 
