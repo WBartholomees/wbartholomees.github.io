@@ -85,7 +85,7 @@ header .grid .logo {
 	margin: 0;
 	font-size: 18px;
 	line-height: 18px;
-	text-decoration: uppercase;
+	text-transform: uppercase;
 }
 
 header .grid .gridCell {
