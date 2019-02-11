@@ -491,6 +491,7 @@ article .grid .gridCell img {
 	/* FOOTER */
 
 footer {
+	display: none;
 	background-color: #3f4041;
 	background-color: #15181A;
 	padding: 2.5rem 0;
