@@ -120,6 +120,10 @@ html {font-size: 1em;}
 	html {font-size: 1.125em;}
 }
 
+@media all and (min-width:1224px) {
+	html {font-size: 1.25em;}
+}
+
 @media all and (min-width:1680px) {
 	html {font-size: 1.25em;}
 }
@@ -133,13 +137,13 @@ body {
 	color: #202121;
 }
 
-p {margin-bottom: 1.3em;}
+p {margin-bottom: 1.25em;}
 
-h1, h2, h3, h4 {
-  	margin: 1.414em 0 0.5em;
+h1, h2, h3, h4, h5 {
+  	margin: 2.75rem 0 1rem;
 	font-family: 'Vollkorn', 'Playfair Display', Georgia, serif;
   	font-weight: 600;
-  	line-height: 1.2;
+  	line-height: 1.15;
 	color: inherit;
 }
 
@@ -149,31 +153,31 @@ h1 {
 }
 
 @media all and (min-width:1024px) {
-	h1 {font-size: 3.998em;}
+	h1 {font-size: 3.157em;}
 }
 
 h2 {font-size: 1.953em;}
 
 @media all and (min-width:1024px) {
-	h2 {font-size: 2.441em;}
+	h2 {font-size: 2.369em;}
 }
 
 h3 {font-size: 1.563em;}
 
 @media all and (min-width:1024px) {
-	h3 {font-size: 1.999em;}
+	h3 {font-size: 1.777em;}
 }
 
 h4 {font-size: 1.25em;}
 
 @media all and (min-width:1024px) {
-	h4 {font-size: 1.414em;}
+	h4 {font-size: 1.333em;}
 }
 
 small, .font_small {font-size: 0.8em;}
 
 @media all and (min-width:1024px) {
-	small, .font_small {font-size: 0.707em;}
+	small, .font_small {font-size: 0.75em;}
 }
 
 strong {
