@@ -157,7 +157,7 @@ main h1.title {
 
 main .intro {
 	padding-top: 5rem;
-	padding-bottom: 3.75rem;
+	padding-bottom: 4rem;
 }
 
 main .intro .iContent {
@@ -233,6 +233,11 @@ main .intro .iContent {
 	to {opacity: 1;}
 }
 */
+
+main .intro .iContent > p:last-of-type,
+main .intro .iContent .grid .gridCell > p:last-of-type {
+	margin-bottom: 1em;
+}
 
 main .intro .icontent .grid .gridCell {
 	flex: 0 0 100%;
