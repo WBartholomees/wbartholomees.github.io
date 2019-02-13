@@ -253,7 +253,8 @@ main .intro small {
 	color: #a6abab;
 	text-transform: uppercase;
 	display: block;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5rem;
+	line-height: 1;
 }
 
 main .portfolio {
