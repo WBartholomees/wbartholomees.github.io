@@ -82,8 +82,9 @@ header .grid .logo {
 }
 
 .logo h4 {
+	font-size: 20px;
 	margin: 0;
-	line-height: 18px;
+	line-height: 1;
 }
 
 header .grid .gridCell {
