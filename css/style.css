@@ -157,6 +157,7 @@ main h1.title {
 
 main .intro {
 	padding-top: 5rem;
+	padding-bottom: 3.75rem;
 }
 
 main .intro .iContent {
@@ -248,11 +249,6 @@ main .intro small {
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 1.5em;
-}
-
-main .intro .iContent > p:last-of-type,
-main .intro .iContent .grid .gridCell p {
-	margin-bottom: 0;
 }
 
 main .portfolio {
