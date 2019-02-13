@@ -157,17 +157,17 @@ main h1.title {
 
 main .intro {
 	padding-top: 5rem;
-	padding-bottom: 4rem;
+	padding-bottom: 3.75rem;
 }
 
 main .intro .iContent {
 	width: 83.3333%;
 }
-/*
-main .intro h1 {
-	color: #000000;
-}
 
+main .intro h1 {
+	margin-bottom: 1.25rem;
+}
+/*
 main .intro h1 span {
 	position: relative;
 	display: inline-block;
@@ -233,11 +233,6 @@ main .intro .iContent {
 	to {opacity: 1;}
 }
 */
-
-main .intro .icontent > p:last-of-type,
-main .intro .icontent .grid .gridCell > p:last-of-type {
-	margin-bottom: 1em;
-}
 
 main .intro .icontent .grid .gridCell {
 	flex: 0 0 100%;
