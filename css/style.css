@@ -161,8 +161,10 @@ main .intro {
 	padding-bottom: 3.75rem;
 }
 
-main .intro .iContent {
-	width: 83.3333%;
+@media all and (min-width:1024px) {
+	main .intro .iContent {
+		width: 83.3333%;
+	}
 }
 
 main .intro h1 {
