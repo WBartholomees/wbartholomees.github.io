@@ -401,14 +401,15 @@ main section.portfolio h4 {
 
 main section.portfolio small {
 	display: block;
-	margin: 0 1rem 1em;
+	margin: 0 1rem 0.5rem;
 	color: #a6abab;
+	line-height: 1;
 	text-transform: uppercase;
 }
 
 @media all and (min-width:1024px) {
 	main section.portfolio small {
-		margin: 0 0 1em;
+		margin: 0 0 0.5rem;
 	}
 }
 
