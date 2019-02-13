@@ -234,8 +234,8 @@ main .intro .iContent {
 }
 */
 
-main .intro .iContent > p:last-of-type,
-main .intro .iContent .grid .gridCell > p:last-of-type {
+main .intro .icontent > p:last-of-type,
+main .intro .icontent .grid .gridCell > p:last-of-type {
 	margin-bottom: 1em;
 }
 
