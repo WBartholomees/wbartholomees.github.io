@@ -399,6 +399,7 @@ main figure .fcontent img {
 
 main section.portfolio h4 {
 	margin: 0 1rem;
+	color: #111111;
 }
 
 @media all and (min-width:1024px) {
