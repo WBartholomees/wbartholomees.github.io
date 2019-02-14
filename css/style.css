@@ -170,6 +170,10 @@ main .intro {
 main .intro h1 {
 	margin-bottom: 1.25rem;
 }
+
+main .intro .icontent h1 {
+	color: #bfbfbf;
+}
 /*
 main .intro h1 span {
 	position: relative;
