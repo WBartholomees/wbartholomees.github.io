@@ -86,7 +86,6 @@ header .grid .logo {
 	font-size: 20px;
 	margin: 0;
 	line-height: 1;
-	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -138,7 +137,7 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-color: #202121 !important;
+color: #4d4d4d !important;
 }
 
 	/* MAIN */
