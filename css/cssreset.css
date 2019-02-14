@@ -129,12 +129,13 @@ html {font-size: 1em;}
 }
 
 body {
-  background-color: #fafafa;
+	background-color: #fafafa;
 	background-color: #f1f3f5;
-  font-family: 'Source Sans Pro', 'HKGrotesk', 'HK Grotesk', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.45;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.45;
 	color: #202121;
+	color: #4d4d4d;
 }
 
 p {margin-bottom: 1.25em;}
@@ -142,44 +143,45 @@ p {margin-bottom: 1.25em;}
 h1, h2, h3, h4, h5 {
   	margin: 2.75rem 0 1rem;
 	font-family: 'Libre Baskerville', Georgia, serif;
-  	font-weight: 700;
+  	font-weight: 400;
   	line-height: 1.15;
 	color: inherit;
+	color: #333333;
 }
 
 h1 {
  	margin-top: 0;
  	font-size: 2.441em;
 }
-
+/*
 @media all and (min-width:1024px) {
 	h1 {font-size: 3.157em;}
 }
-
+*/
 h2 {font-size: 1.953em;}
-
+/*
 @media all and (min-width:1024px) {
 	h2 {font-size: 2.369em;}
 }
-
+*/
 h3 {font-size: 1.563em;}
-
+/*
 @media all and (min-width:1024px) {
 	h3 {font-size: 1.777em;}
 }
-
+*/
 h4 {font-size: 1.25em;}
-
+/*
 @media all and (min-width:1024px) {
 	h4 {font-size: 1.333em;}
 }
-
+*/
 small, .font_small {font-size: 0.8em;}
-
+/*
 @media all and (min-width:1024px) {
 	small, .font_small {font-size: 0.75em;}
 }
-
+*/
 strong {
 	font-weight: bold;
 }
