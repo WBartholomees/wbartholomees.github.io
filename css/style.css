@@ -261,7 +261,7 @@ main .intro small {
 
 main .portfolio {
 	position: relative;
-	background-color: #fcfcfd;
+	background-color: #f1f3f5;
 }
 
 .portfolio .grid {
@@ -303,7 +303,7 @@ main .about::before {
 	display: block;
 	width: 10%;
 	height: 9vw;
-	background-color: #f1f3f5;
+	background-color: #fcfcfd;
 }
 
 main .about .wrap {
@@ -465,7 +465,7 @@ main .arrow .arrowbox span {
 	right: 0;
 	overflow: hidden;
 	background-color: #fafafa;
-	background-color: #f1f3f5;
+	background-color: #fcfcfd;
 	-webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
