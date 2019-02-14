@@ -82,9 +82,12 @@ header .grid .logo {
 }
 
 .logo h4 {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
 	font-size: 20px;
 	margin: 0;
 	line-height: 1;
+	color: #FFF;
+	text-transform: uppercase;
 }
 
 header .grid .gridCell {
